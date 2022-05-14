@@ -1,0 +1,324 @@
+#header{
+    padding: 0;
+
+    #loginJoin {
+      display: flex;
+            .cart{
+              cursor: pointer;
+              width: 120px;
+              margin-left: 0;
+              padding: 10px;
+              text-align: center;
+            }
+            .loginButton {
+              display: flex;
+              justify-content: flex-end;
+              width: 100px;
+              margin-left: auto;
+              cursor:pointer;
+              padding: 10px;
+              align-items: center;
+            }
+            .join{
+              cursor: pointer;
+              display: flex;
+              justify-content: center;
+              width: 100px;
+              margin-left: 0 auto;
+              padding: 10px;
+              align-items: center;
+            }
+    }
+    
+    .logoImg{
+      display: flex;
+      justify-content: center;
+      margin: 10px;
+      padding: 10px;
+              .logo{
+                cursor: pointer;
+                }
+    }
+
+    .navMenu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 0 auto;
+              #navMenu1{
+                padding: 0;
+              }
+              .navList{
+                display: flex;
+                margin: 0 auto;
+                padding: 0;
+                list-style: none;
+              }
+              .navList li {
+                padding: 10px;
+                width: 120px;
+                text-align: center;
+                cursor: pointer;
+              }
+              
+              .search {
+                display: flex;
+                justify-content: end;
+                position: absolute;
+                z-index: 1;
+                height: 30px;
+                justify-content: flex-end;
+                width: 200px;
+                margin-left: auto;
+                position: relative;
+              }
+              .search input {
+                width: 150px;
+                border: none;
+                border-bottom: 1px solid black;
+                position: absolute;
+              }
+              .qkqh{
+                position: absolute;
+                z-index: 3;
+              transform : translatey(-50%);
+                top: 50%;
+                cursor : pointer;
+                padding: 5px;
+              }
+    }
+  }
+
+  #join{
+    margin: 100px auto ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    div{
+      padding: 10px;
+    }
+  }
+
+
+  
+  .newMenu{ 
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 70px;
+    text-align: center;
+    top: 0;
+  }
+  
+  
+  /* header/nav  */
+  
+  #loginModal {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto ;
+    padding: 0;
+    text-align: center;
+  }
+  #card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+   }
+   #cardBody{
+     display: flex;
+     flex-direction: column;
+   }
+  #priceButton{
+    margin-left: auto;
+  }
+  
+  /* 디테일 css */
+  #detaillMenu{
+    display: flex;
+    height: 530px;
+    justify-content:space-around;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .detaillImg{
+    width: 660px;
+    text-align: center;
+  }
+  .detaillImg > img{
+    width: 500px;
+    height: 530px;
+  }
+  
+  .detaillIntroduce{
+    display: flex;
+    flex-direction: column;
+    width: 660px;
+    height: 530px;
+  }
+  .detaillNew{
+    color: red;
+    font-size: 25px;
+    width: 660px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+  }
+  .detailltitle{
+    font-size: 25px;
+    text-align: center;
+    width: 660px;
+    height: 76px;
+    line-height: 76px;
+  }
+  .detaillbody{
+    font-size: 20px;
+    text-align: left;
+    width: 660px;
+    height: 76px;
+    line-height: 76px;
+    border-bottom: 1px solid black;
+  }
+  .detaillKcal{
+    width: 660px;
+    height: 76px;
+    line-height: 76px;
+    border-bottom: 1px solid black;
+  }
+  .detaillChoiceNumber{
+    width: 660px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+  .detaillprice{
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    width: 660px;
+    height: 76px;
+    line-height: 76px;
+    margin-bottom: 0;
+  }
+  .detaillButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 660px;
+    height: 76px;
+  }
+  .detaillButton > button{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+  }
+
+  .detaillDetaillImg{
+  display:'flex';
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  img{
+    width:900px;
+    text-align: center;
+  }
+  }
+  /* 디테일 css */
+
+.cartTitle{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+   .cartCheckBox{
+    width: 98px;
+    text-align: center;
+    }
+    P{
+      padding: 20px;
+      margin-bottom: 0;
+      width: 240px;
+    }
+}
+
+#cartPage{
+  padding:0px;
+   border:1px solid black;
+    margin:100px auto;
+}
+.cartItem{
+  display: flex;
+height: 110px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+   .cartCheckBox{
+    width: 98px;
+  text-align: center;
+  }
+  img{
+    width: 150px;
+    height: 100px;
+  }
+    p{
+    padding: 20px;
+    margin-bottom: 0;
+    width: 240px;
+  }
+}
+
+.cartButton{
+  display: flex;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  .cartCheckBox{
+    width: 98px;
+    text-align: center;
+  }
+  button{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.cartMoney{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.cartOrder{
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  button{
+    width: 250px;
+    height: 50px;
+  }
+}
+
+  @media  (max-width: 768px)
+  
+  {
+  #card{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 25px;
+   }
+   .newMenu{
+     top: 0;
+   }
+  }
